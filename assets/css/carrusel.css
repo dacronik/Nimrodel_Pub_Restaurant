@@ -1,0 +1,12 @@
+.carousel-inner .carousel-item img{
+    height: 32rem;
+}
+@media screen and (max-width: 768px){
+    .carousel-inner .carousel-item img{
+        height: 18rem;
+    }
+    .carousel-inner .carousel-item {
+        width: 27rem;
+        padding-left: 1.5625rem;
+    }
+}

@@ -1,0 +1,9 @@
+.destacados__titulo {
+    text-align: center;
+}
+.card .card-img-top {
+    height: 18rem;
+}
+.card {
+    margin-bottom: 2.5rem;
+}
