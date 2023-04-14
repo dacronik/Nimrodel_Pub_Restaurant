@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.myCarrusel {
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+.myCarrusel__content{
+    background-color: #000;
+    width: 60%;
+    margin: 5% auto;
+    border: .0625rem solid;
+    padding: 1.875rem;
+    border-radius: 2%;
+}
+.card-carrusel {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-carrusel h1{
+    text-align: center;
+    color: #fff;
+}
+.card-carrusel img{
+    display: block;
+    margin: 0 auto;
+    width: 18.75rem;
+    height: 18.75rem;
+}
+.card-carrusel p{
+    font-family: 'Yellowtail', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: .625rem;
+    color: #fff;
+}
+.button_close{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+.next {
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: none;
+}
+.prev{
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: none;
+}
+.carrusel__inner{
+    display: flex;
+}
+
+@media screen and (max-width: 415px) {
+
+    .myCarrusel__content{
+        width: 100%;
+        margin: 0;
+        
+    }   
+    .card-carrusel {
+        width: 100%;
+    } 
+    
+    .card-carrusel p{
+        width: 100%;
+        text-align: start;
+    }
+   
+}

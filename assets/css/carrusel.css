@@ -7,6 +7,8 @@
     }
     .carousel-inner .carousel-item {
         width: 27rem;
-        padding-left: 1.5625rem;
+    }
+    .carousel-inner{
+        margin: 0;
     }
 }

@@ -19,6 +19,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/mycarrusel.css">
     <link rel="stylesheet" href="assets/css/llamada.css">
     <link rel="stylesheet" href="assets/css/destacados.css">
     <link rel="stylesheet" href="assets/css/modal.css">
@@ -47,7 +48,7 @@
                             <a class="nav-link" href="#destacados">Nuestros Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre Nosotros</a>
+                            <a class="nav-link" id="nosotros" href="#">Sobre Nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="nav_contacto" href="#contacto">Contacto</a>
@@ -62,10 +63,46 @@
     </header>
     <!--fin del header-->
 
+    <!--Inicio carrousel "sobre nosotros"-->
+    <div class="myCarrusel">
+        <div class="myCarrusel__content container col-sm-12">
+            <button id="carrusel_close" class="button_close">
+                <i class="fa-sharp fa-solid fa-xmark fa-2xl"></i>
+            </button>
+            <hr>
+            <div class="card-carrusel col-12">
+                <h1 id="title_carrousel">Nimrodel Pub Restaurant</h1>
+                <p id="parrafo_carrousel">Nimrodel Significa “dama de la cueva blanca”. Fue una elfa silvana que vivió
+                    durante la Tercera Edad del Sol en el bosque de Lothlórien. En honor a su nombre, se acuña
+                    Nimrodel al río que nace en las Montañas Nubladas.</p>
+                <div class="carrusel__inner">
+                    <img id="image_carrousel" src="assets/img/carrusel_2.jpg" alt="">
+                </div>
+            </div>
+            <div class="card-carrusel">
+                <h1 id="title_carrousel">Nimrodel Pub Restaurant</h1>
+                <p id="parrafo_carrousel">Nimrodel Pub Restaurant es un oasis de calma y diversión, lleno de rincones acogedores
+                    en donde se resalta la belleza de su decoración élfica.
+                    Es un lugar ideal para visitar solo o acompañado, disfrutar una tarde con amigos, terminar
+                    el día después del trabajo o almorzar con tu familia.
+                    Puedes probar nuestras tradicionales tablas, en todas sus variedades y que nos han
+                    otorgado reconocimiento dentro de la cultura gastronómica.
+                    También puedes disfrutar nuestras cervezas de fabricación propia, con sabores que te
+                    llevarán a un mágico mundo.</p>
+                <div class="carrusel__inner">
+                    <img id="image_carrousel" src="assets/img/carrusel_1.jpg" alt="">
+                </div>       
+            </div>
+        </div>
+    </div>
+    <!--Fin carrousel "sobre nosotros"-->
+
     <!--seccion titulo-->
     <section class="llamada container-fluid">
         <h1 class="llamada__titulo">Nimrodel Pub Restaurant</h1>
     </section>
+    <!--Fin seccion de titulo-->
+
     <!--inicio seccion cards-->
     <section class="destacados container-fluid">
         <h2 class="destacados__titulo" id="destacados">Destacados de la Semana</h2>
@@ -202,7 +239,7 @@
     </section>
     <!--fin section reservas-->
     <!--inicio Carrusel-->
-    <section class="carrusel container mt-5">
+    <section class="carousel container mt-5">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
