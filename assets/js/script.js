@@ -59,7 +59,7 @@ $(document).ready(function () {
         var parrafo = this.parentNode.querySelector('p').innerHTML
 
         //rellenando el Modal
-        // $("#title_card").text(titulo);
+        $("#title_card").text(titulo);
         $("#image_card").attr('src', imgScr);
         $("#parrafo_card").text(parrafo);
 

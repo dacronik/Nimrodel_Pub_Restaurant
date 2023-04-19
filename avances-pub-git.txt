@@ -1,0 +1,44 @@
+
+dacro@dacro MINGW64 ~/OneDrive/Escritorio/pub-JQuery
+$ git init
+Initialized empty Git repository in C:/Users/dacro/OneDrive/Escritorio/pub-JQuery/.git/
+
+dacro@dacro MINGW64 ~/OneDrive/Escritorio/pub-JQuery (master)
+$ git add .
+
+dacro@dacro MINGW64 ~/OneDrive/Escritorio/pub-JQuery (master)
+$ git commit -m "iniciando carrousel sobre nosotros"
+[master (root-commit) 107936c] iniciando carrousel sobre nosotros
+ 19 files changed, 521 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 assets/css/base.css
+ create mode 100644 assets/css/carrusel.css
+ create mode 100644 assets/css/contacto.css
+ create mode 100644 assets/css/destacados.css
+ create mode 100644 assets/css/footer.css
+ create mode 100644 assets/css/header.css
+ create mode 100644 assets/css/llamada.css
+ create mode 100644 assets/css/modal.css
+ create mode 100644 assets/img/bebidas.jpg
+ create mode 100644 assets/img/chorillana.jpg
+ create mode 100644 assets/img/fondo.jpg
+ create mode 100644 assets/img/mojito.jpg
+ create mode 100644 assets/img/n.png
+ create mode 100644 assets/img/shop.jpeg
+ create mode 100644 assets/img/tablas.jpg
+ create mode 100644 assets/img/vino.jpg
+ create mode 100644 assets/js/script.js
+ create mode 100644 index.html
+
+dacro@dacro MINGW64 ~/OneDrive/Escritorio/pub-JQuery (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+dacro@dacro MINGW64 ~/OneDrive/Escritorio/pub-JQuery (master)
+$ git commit -m "carrusel terminado"
+[master 2b2e1ae] carrusel terminado
+ 6 files changed, 217 insertions(+), 17 deletions(-)
+ create mode 100644 assets/css/mycarrusel.css
+ create mode 100644 assets/img/carrusel_1.jpg
+ create mode 100644 assets/img/carrusel_2.jpg
